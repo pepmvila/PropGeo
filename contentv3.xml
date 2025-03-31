@@ -87,7 +87,7 @@
   <string role="key" value="_name"></string>
   <unicode value="T5._Proporcionalitat_Geo_2nESO"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="21"></int>
+  <int value="19"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="9"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -96,7 +96,7 @@
    <instance class="exe.engine.node.Node" reference="4">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="T6. Proporcionalitat Geomètrica"></unicode>
+     <unicode value="Tema 5. Proporcionalitat Geomètrica"></unicode>
      <string role="key" value="idevices"></string>
      <list>
       <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
@@ -279,7 +279,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="Portada.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpuvu5i7\\Portada.png"></string>
+                  <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpr27mjc\\Portada.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="63c3e8ed6e010917f166d2015adf9de9"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -340,312 +340,6 @@
         <int value="0"></int>
        </dictionary>
       </instance>
-      <instance class="exe.engine.fileattachidevice.FileAttachIdeviceInc" reference="6">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="File Attachments"></unicode>
-        <string role="key" value="_author"></string>
-        <unicode value="Toughra Technologies FZ LLC."></unicode>
-        <string role="key" value="_purpose"></string>
-        <unicode value="File Attachments Idevice."></unicode>
-        <string role="key" value="_tip"></string>
-        <string value=""></string>
-        <string role="key" value="_typeName"></string>
-        <unicode value="File Attachments"></unicode>
-        <string role="key" value="edit"></string>
-        <bool value="0"></bool>
-        <string role="key" value="emphasis"></string>
-        <int value="1"></int>
-        <string role="key" value="exe.engine.fileattachidevice.FileAttachIdeviceInc.persistenceVersion"></string>
-        <int value="2"></int>
-        <string role="key" value="fileAttachmentFields"></string>
-        <list>
-         <instance class="exe.engine.extendedfieldengine.FileField" reference="7">
-          <dictionary>
-           <string role="key" value="_id"></string>
-           <int value="83"></int>
-           <string role="key" value="_idevice"></string>
-           <reference key="6"></reference>
-           <string role="key" value="_instruc"></string>
-           <string value="File Field Help"></string>
-           <string role="key" value="_name"></string>
-           <string value="File Field"></string>
-           <string role="key" value="alwaysNameTo"></string>
-           <none></none>
-           <string role="key" value="exe.engine.extendedfieldengine.FileField.persistenceVersion"></string>
-           <int value="5"></int>
-           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-           <int value="4"></int>
-           <string role="key" value="fileDescription"></string>
-           <instance class="exe.engine.field.TextField">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="84"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="7"></reference>
-             <string role="key" value="_instruc"></string>
-             <string value=""></string>
-             <string role="key" value="_name"></string>
-             <string value="Description"></string>
-             <string role="key" value="content"></string>
-             <unicode value="Apunts Paper.pdf"></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-            </dictionary>
-           </instance>
-           <string role="key" value="fileInstruc"></string>
-           <unicode value="Subir un fichero. Elimine los caracteres especiales del nombre del fichero y la ruta del archivo."></unicode>
-           <string role="key" value="fileResource"></string>
-           <instance class="exe.engine.resource.Resource" reference="9">
-            <dictionary>
-             <string role="key" value="_idevice"></string>
-             <reference key="6"></reference>
-             <string role="key" value="_package"></string>
-             <reference key="2"></reference>
-             <string role="key" value="_storageName"></string>
-             <string value="Apunts Paper.pdf"></string>
-             <string role="key" value="_userName"></string>
-             <string value="C:\\Users\\jvila47\\Desktop\\Apunts Paper.pdf"></string>
-             <string role="key" value="checksum"></string>
-             <string value="443da2b0548c0853bbf2cfd7b688ef68"></string>
-             <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="warningMsg"></string>
-             <string value=""></string>
-            </dictionary>
-           </instance>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="fileAttachmentsDesc"></string>
-        <list></list>
-        <string role="key" value="icon"></string>
-        <string value="assignment"></string>
-        <string role="key" value="id"></string>
-        <unicode value="19"></unicode>
-        <string role="key" value="introHTML"></string>
-        <instance class="exe.engine.field.TextAreaField" reference="8">
-         <dictionary>
-          <string role="key" value="_id"></string>
-          <int value="82"></int>
-          <string role="key" value="_idevice"></string>
-          <reference key="6"></reference>
-          <string role="key" value="_instruc"></string>
-          <string value="Instructions"></string>
-          <string role="key" value="_name"></string>
-          <string value="Instructions"></string>
-          <string role="key" value="anchor_names"></string>
-          <list></list>
-          <string role="key" value="anchors_linked_from_fields"></string>
-          <dictionary></dictionary>
-          <string role="key" value="content_w_resourcePaths"></string>
-          <unicode content="true" value="&lt;p&gt;Aquí trobareu un document amb explicacions, activitats i solucions per complementar tot el que es vegi durant aquest tema!&lt;/p&gt;"></unicode>
-          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-          <int value="4"></int>
-          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-          <int value="2"></int>
-          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-          <int value="3"></int>
-          <string role="key" value="htmlTag"></string>
-          <string value="div"></string>
-          <string role="key" value="images"></string>
-          <instance class="exe.engine.galleryidevice.GalleryImages">
-           <dictionary>
-            <string role="key" value=".listitems"></string>
-            <list></list>
-            <string role="key" value="idevice"></string>
-            <reference key="8"></reference>
-           </dictionary>
-          </instance>
-          <string role="key" value="intlinks_to_anchors"></string>
-          <dictionary></dictionary>
-          <string role="key" value="nextImageId"></string>
-          <int value="0"></int>
-          <string role="key" value="parentNode"></string>
-          <none></none>
-         </dictionary>
-        </instance>
-        <string role="key" value="lastIdevice"></string>
-        <bool value="0"></bool>
-        <string role="key" value="message"></string>
-        <string value=""></string>
-        <string role="key" value="originalicon"></string>
-        <string value=""></string>
-        <string role="key" value="parentNode"></string>
-        <reference key="4"></reference>
-        <string role="key" value="showDesc"></string>
-        <instance class="exe.engine.extendedfieldengine.ChoiceField">
-         <dictionary>
-          <string role="key" value="_id"></string>
-          <int value="81"></int>
-          <string role="key" value="_idevice"></string>
-          <reference key="6"></reference>
-          <string role="key" value="_instruc"></string>
-          <string value="Show Description"></string>
-          <string role="key" value="_name"></string>
-          <string value="Show description and link"></string>
-          <string role="key" value="content"></string>
-          <unicode value="yes"></unicode>
-          <string role="key" value="exe.engine.extendedfieldengine.ChoiceField.persistenceVersion"></string>
-          <int value="3"></int>
-          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-          <int value="4"></int>
-          <string role="key" value="options"></string>
-          <list>
-           <list>
-            <string value="yes"></string>
-            <string value="Yes"></string>
-           </list>
-           <list>
-            <string value="no"></string>
-            <string value="No"></string>
-           </list>
-          </list>
-         </dictionary>
-        </instance>
-        <string role="key" value="systemResources"></string>
-        <list></list>
-        <string role="key" value="undo"></string>
-        <bool value="0"></bool>
-        <string role="key" value="userResources"></string>
-        <list>
-         <reference key="9"></reference>
-        </list>
-        <string role="key" value="version"></string>
-        <int value="0"></int>
-       </dictionary>
-      </instance>
-      <instance class="exe.engine.jsidevice.JsIdevice" reference="10">
-       <dictionary>
-        <string role="key" value="_title"></string>
-        <unicode value="Edificis i Gegants!"></unicode>
-        <string role="key" value="_attributes"></string>
-        <list>
-         <tuple>
-          <string value="title"></string>
-          <list>
-           <string value="Title"></string>
-           <int value="0"></int>
-           <int value="0"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="category"></string>
-          <list>
-           <string value="Category"></string>
-           <int value="0"></int>
-           <int value="1"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="css-class"></string>
-          <list>
-           <string value="CSS class"></string>
-           <int value="0"></int>
-           <int value="2"></int>
-          </list>
-         </tuple>
-         <tuple>
-          <string value="icon"></string>
-          <list>
-           <string value="Icon"></string>
-           <int value="0"></int>
-           <int value="3"></int>
-          </list>
-         </tuple>
-        </list>
-        <string role="key" value="_author"></string>
-        <string value=""></string>
-        <string role="key" value="_iDeviceDir"></string>
-        <string value="geogebra-activity"></string>
-        <string role="key" value="_purpose"></string>
-        <string value=""></string>
-        <string role="key" value="_tip"></string>
-        <string value=""></string>
-        <string role="key" value="_typeName"></string>
-        <unicode value="GeoGebra Activity"></unicode>
-        <string role="key" value="_valid"></string>
-        <bool value="1"></bool>
-        <string role="key" value="class_"></string>
-        <unicode value="GeoGebra"></unicode>
-        <string role="key" value="edit"></string>
-        <bool value="0"></bool>
-        <string role="key" value="emphasis"></string>
-        <int value="1"></int>
-        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
-        <int value="1"></int>
-        <string role="key" value="fields"></string>
-        <list>
-         <instance class="exe.engine.field.TextAreaField" reference="11">
-          <dictionary>
-           <string role="key" value="_id"></string>
-           <unicode value="128_2"></unicode>
-           <string role="key" value="_idevice"></string>
-           <reference key="10"></reference>
-           <string role="key" value="_instruc"></string>
-           <string value=""></string>
-           <string role="key" value="_name"></string>
-           <string value=""></string>
-           <string role="key" value="anchor_names"></string>
-           <list></list>
-           <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;auto-geogebra auto-geogebra-revktvuh auto-geogebra-width-700 auto-geogebra-height-300 language-es showResetIcon auto-geogebra-scale-100 auto-geogebra-evaluation-id-0 auto-geogebra-ideviceid-202533145638-120&quot;&gt;&lt;div class=&quot;auto-geogebra-instructions&quot;&gt;&lt;p&gt;Al següent applet, intenta calcular l'altura de l'edifici.&lt;/p&gt;
-&lt;p&gt;Per aconseguir-ho, intenta moure el ninot i el mirall de manera que el ninot vegi al mirall el cantó de l'edifici. Si ho aconsegueixes, els dos triangles seran proporcionals (directament) entre ells! I si ho són (base amb base, altura amb altura) podràs trobar el costat desconegut!!&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;No facis molt de cas de l'altura del ninot, és un gegant de 3.5m (errada de programació que em fa peresa arreglar de moment).&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;https://www.geogebra.org/m/revktvuh&quot; target=&quot;_blank&quot;&gt;https://www.geogebra.org/m/revktvuh (Ventana nueva)&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;auto-geogebra-author js-hidden&quot;&gt;Pep%20Vila,https%3A//www.geogebra.org/m/revktvuh,Intro,1,Autor%EDa&lt;/div&gt;&lt;div class=&quot;auto-geogebra-messages-evaluation&quot;&gt;Actividad%20no%20completada,Actividad%20superada.%20Puntuaci%F3n%3A%20%25s,Actividad%20no%20superada.%20Puntuaci%F3n%3A%20%25s,Guardar%20la%20puntuaci%F3n&lt;/div&gt;&lt;/div&gt;"></unicode>
-           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-           <int value="4"></int>
-           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-           <int value="2"></int>
-           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-           <int value="3"></int>
-           <string role="key" value="htmlTag"></string>
-           <string value="div"></string>
-           <string role="key" value="images"></string>
-           <instance class="exe.engine.galleryidevice.GalleryImages">
-            <dictionary>
-             <string role="key" value=".listitems"></string>
-             <list></list>
-             <string role="key" value="idevice"></string>
-             <reference key="11"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="intlinks_to_anchors"></string>
-           <dictionary></dictionary>
-           <string role="key" value="nextImageId"></string>
-           <int value="0"></int>
-           <string role="key" value="parentNode"></string>
-           <none></none>
-          </dictionary>
-         </instance>
-        </list>
-        <string role="key" value="icon"></string>
-        <unicode value=""></unicode>
-        <string role="key" value="id"></string>
-        <unicode value="20"></unicode>
-        <string role="key" value="ideviceCategory"></string>
-        <unicode value="Interactive Activities"></unicode>
-        <string role="key" value="lastIdevice"></string>
-        <bool value="0"></bool>
-        <string role="key" value="nextFieldId"></string>
-        <int value="3"></int>
-        <string role="key" value="originalicon"></string>
-        <string value=""></string>
-        <string role="key" value="parentNode"></string>
-        <reference key="4"></reference>
-        <string role="key" value="systemResources"></string>
-        <list></list>
-        <string role="key" value="undo"></string>
-        <bool value="1"></bool>
-        <string role="key" value="userResources"></string>
-        <list></list>
-        <string role="key" value="version"></string>
-        <int value="0"></int>
-       </dictionary>
-      </instance>
      </list>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
@@ -658,20 +352,20 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica"></string>
+     <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="14">
+      <instance class="exe.engine.node.Node" reference="8">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="1. Figures Semblants"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Què vol dir això de la Semblança?"></unicode>
@@ -732,12 +426,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="13">
+            <instance class="exe.engine.field.TextAreaField" reference="7">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="131_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="12"></reference>
+              <reference key="6"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -836,16 +530,16 @@
                    <string role="key" value="_id"></string>
                    <unicode value="2_131_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="15">
+                   <instance class="exe.engine.resource.Resource" reference="9">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="12"></reference>
+                     <reference key="6"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="1._FS._Im1.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpuvu5i7\\1._FS._Im1.png"></string>
+                     <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpr27mjc\\1._FS._Im1.png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="ed88cd976bcbead7c8be0bf168d8870e"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -857,7 +551,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="13"></reference>
+                   <reference key="7"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -868,7 +562,7 @@
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="13"></reference>
+                <reference key="7"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -876,7 +570,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="3"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="14"></reference>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -893,20 +587,20 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="14"></reference>
+           <reference key="8"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="15"></reference>
+            <reference key="9"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
           </dictionary>
          </instance>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="10">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Zoom!"></unicode>
@@ -967,12 +661,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="17">
+            <instance class="exe.engine.field.TextAreaField" reference="11">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="132_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="16"></reference>
+              <reference key="10"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -998,7 +692,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="17"></reference>
+                <reference key="11"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -1006,7 +700,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="14"></reference>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1023,7 +717,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="14"></reference>
+           <reference key="8"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1034,7 +728,7 @@
            <int value="0"></int>
           </dictionary>
          </instance>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="18">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="12">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Girs!"></unicode>
@@ -1095,12 +789,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="19">
+            <instance class="exe.engine.field.TextAreaField" reference="13">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="127_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="18"></reference>
+              <reference key="12"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -1126,7 +820,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="19"></reference>
+                <reference key="13"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -1134,7 +828,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="14"></reference>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1151,7 +845,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="14"></reference>
+           <reference key="8"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1162,7 +856,7 @@
            <int value="0"></int>
           </dictionary>
          </instance>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="20">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Miralls!"></unicode>
@@ -1223,12 +917,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="21">
+            <instance class="exe.engine.field.TextAreaField" reference="15">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="128_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="20"></reference>
+              <reference key="14"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -1254,7 +948,7 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="21"></reference>
+                <reference key="15"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -1262,7 +956,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="14"></reference>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -1279,7 +973,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="14"></reference>
+           <reference key="8"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -1302,20 +996,20 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:1.%20Figures%20Semblants"></string>
+        <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:1.%20Figures%20Semblants"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="24">
+         <instance class="exe.engine.node.Node" reference="18">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Treballant amb Polígons"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="22">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Semblança amb Polígons"></unicode>
@@ -1376,12 +1070,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="23">
+               <instance class="exe.engine.field.TextAreaField" reference="17">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="131_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="22"></reference>
+                 <reference key="16"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1414,7 +1108,7 @@
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="23"></reference>
+                   <reference key="17"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1422,7 +1116,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="24"></reference>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1439,7 +1133,7 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1450,7 +1144,7 @@
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="25">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="19">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Exercici Figures Semblants"></unicode>
@@ -1511,12 +1205,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="26">
+               <instance class="exe.engine.field.TextAreaField" reference="20">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="129_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="25"></reference>
+                 <reference key="19"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1569,16 +1263,16 @@
                       <string role="key" value="_id"></string>
                       <unicode value="6_129_2.2"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="27">
+                      <instance class="exe.engine.resource.Resource" reference="21">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="25"></reference>
+                        <reference key="19"></reference>
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="2._FS._IM2.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpuvu5i7\\2._FS._IM2.png"></string>
+                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpr27mjc\\2._FS._IM2.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="fc9525ec3b812e270528227870c1df6d"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1590,7 +1284,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="26"></reference>
+                      <reference key="20"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1601,7 +1295,7 @@
                     </instance>
                    </list>
                    <string role="key" value="idevice"></string>
-                   <reference key="26"></reference>
+                   <reference key="20"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1609,7 +1303,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="3"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="24"></reference>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1626,20 +1320,20 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
               <list>
-               <reference key="27"></reference>
+               <reference key="21"></reference>
               </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="28">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="22">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Solució Exercici Figures Semblants"></unicode>
@@ -1700,12 +1394,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="29">
+               <instance class="exe.engine.field.TextAreaField" reference="23">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="130_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="28"></reference>
+                 <reference key="22"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1753,16 +1447,16 @@
                       <string role="key" value="_id"></string>
                       <unicode value="7_130_2.1"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="30">
+                      <instance class="exe.engine.resource.Resource" reference="24">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="28"></reference>
+                        <reference key="22"></reference>
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="2._FS._IM2_-_copia.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpuvu5i7\\2._FS._IM2_-_copia.png"></string>
+                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpr27mjc\\2._FS._IM2_-_copia.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="e37d9589078b6f28544e6a38cf41578c"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1774,7 +1468,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="29"></reference>
+                      <reference key="23"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -1785,7 +1479,7 @@
                     </instance>
                    </list>
                    <string role="key" value="idevice"></string>
-                   <reference key="29"></reference>
+                   <reference key="23"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1793,7 +1487,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="2"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="24"></reference>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1810,20 +1504,20 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
               <list>
-               <reference key="30"></reference>
+               <reference key="24"></reference>
               </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="25">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Exemple amb Angles i Costats"></unicode>
@@ -1884,12 +1578,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="32">
+               <instance class="exe.engine.field.TextAreaField" reference="26">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="132_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="31"></reference>
+                 <reference key="25"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -1916,7 +1610,7 @@
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="32"></reference>
+                   <reference key="26"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -1924,7 +1618,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="24"></reference>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1941,7 +1635,7 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
@@ -1952,7 +1646,7 @@
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.jsidevice.JsIdevice" reference="33">
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="27">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Repàs de l'apartat 1"></unicode>
@@ -2013,12 +1707,12 @@
               <int value="1"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="34">
+               <instance class="exe.engine.field.TextAreaField" reference="28">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="137_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="33"></reference>
+                 <reference key="27"></reference>
                  <string role="key" value="_instruc"></string>
                  <string value=""></string>
                  <string role="key" value="_name"></string>
@@ -2034,7 +1728,7 @@
 &lt;li&gt;&lt;b&gt;Dos polígons tenen la mateixa forma (són semblants) si tenen tots els angles iguals I els costats proporcionals.&lt;/b&gt;&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Si són semblants, les longituds (els costats) són Directament Proporcionals &lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Amb això, intenta contestar les següents preguntes:&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;selecciona-version js-hidden&quot;&gt;undefined&lt;/div&gt;&lt;div class=&quot;selecciona-feedback-game&quot;&gt;&lt;/div&gt;&lt;div class=&quot;selecciona-DataGame js-hidden&quot; &gt;%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C1%F7%FE%F7%F1%F1%FB%FD%FC%F3%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%D3%FC%F7%FF%B7%A0%A2%F3%B7%A0%A2%E0%F7%E2%F3%E1%E1%F3%E0%B7%A0%A2%E7%FC%F3%B7%A0%A2%FF%FB%F1%F3%B7%A0%A2%E6%FD%E6%B7%A0%A2%F7%FE%B7%A0%A2%E3%E7%F7%B7%A0%A2%FA%F7%FF%B7%A0%A2%F6%FB%E6%B7%A1%D3%B7%D3%A2%B7%A1%D1%BD%E2%B7%A1%D7%B7%A2%D3%B7%A1%D1%E7%FE%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%D6%E7%F7%E1%B7%A0%A2%F4%FB%F5%E7%E0%F7%E1%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%A2%E1%FB%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%FE%F3%B7%A0%A2%FF%F3%E6%F7%FB%EA%F3%B7%A0%A2%F4%FD%E0%FF%F3%B7%A0%A2%B7%A0%AA%E8%FD%FD%FF%E1%B7%A0%D1%B7%A0%A2%F5%FB%E0%E1%B7%A0%A2%FB%B7%A0%A2%FF%FB%E0%F3%FE%FE%E1%B7%A0%AB%BC%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%D6%FD%E1%B7%A0%A2%E2%FD%FE%B7%D7%D6%F5%FD%FC%E1%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%FE%F3%B7%A0%A2%FF%F3%E6%F7%FB%EA%F3%B7%A0%A2%F4%FD%E0%FF%F3%B7%A0%A2%B7%A0%AA%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%AB%B7%A0%A2%E1%FB%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%E6%FD%E6%E1%B7%A0%A2%F7%FE%E1%B7%A0%A2%F3%FC%F5%FE%F7%E1%B7%A0%A2%FB%F5%E7%F3%FE%E1%B7%A0%A2%DB%B7%A0%A2%F7%FE%E1%B7%A0%A2%F1%FD%E1%E6%F3%E6%E1%B7%A0%A2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%BC%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%C1%FB%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%D1%B7%A0%A2%FE%F7%E1%B7%A0%A2%FE%FD%FC%F5%FB%E6%E7%F6%E1%B7%A0%A2%B7%A0%AA%F7%FE%E1%B7%A0%A2%F1%FD%E1%E6%F3%E6%E1%B7%A0%AB%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%D6%FB%E0%F7%F1%E6%F3%FF%F7%FC%E6%B7%A0%A2%C2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B7%D3%A2%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%BD%E7%FE%B7%A1%D7%B7%A2%D3%B7%A1%D1%E2%B7%A1%D7%D3%FF%F0%B7%A0%A2%F3%FB%EA%B7%D4%A0%B7%A0%D1%B7%A0%A2%FB%FC%E6%F7%FC%E6%F3%B7%A0%A2%F1%FD%FC%E6%F7%E1%E6%F3%E0%B7%A0%A2%FE%F7%E1%B7%A0%A2%E1%F7%F5%B7%D4%D1%F7%FC%E6%E1%B7%A0%A2%E2%E0%F7%F5%E7%FC%E6%F7%E1%B7%A1%D3%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%C6%E0%FB%F3%B2%FE%F7%E1%B2%E0%F7%E1%E2%FD%E1%E6%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%F7%E1%B2%FB%B2%E2%E0%F7%FF%B2%F3%FE%B2%F0%FD%E6a%B2%E2%F7%E0%B2%F1%FD%FF%E2%E0%FD%E4%F3%E0%BC%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E1%F7%FE%F7%F1%E6%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A3%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%E0%F7%E1%FD%E7%E0%F1%F7%E1%BD%D3%FF%E2%FE%F3%BC%E2%FC%F5%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%D7%FC%B2%E0%F7%F3%FE%FB%E6%F3%E6%BE%B2%F6%FB%E0%F7%FF%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%D6%D7%D4%DD%C0%DF%D3%C6%B2%BA%FA%F3%B2%E2%F7%E0%F6%E7%E6%B2%FE%F3%B2%F4%FD%E0%FF%F3%BB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D3%E3%E7%F7%E1%E6%F7%E1%B2%F6%E7%F7%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%E1a%FC%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%F7%FC%E6%E0%F7%B2%F7%FE%FE%F7%E1%A8%B2%D1%F7%E0%E6%B2%FD%B2%D4%F3%FE%E1%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E8%FD%FD%FF%B2%FA%FD%E0%FB%E6%E8%FD%FC%E6%F3%FE%B2%E2%F7%E0%60%B2%FC%FD%B2%E4%F7%E0%E6%FB%F1%F3%FE%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E7%FC%B2%F5%FB%E0%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E7%FC%F3%B2%E1%FB%FF%F7%E6%E0%FB%F3%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%DB%B2%F7%FC%F1%F3%E0%F3%B2%F7%E6%B2%F6%FB%E0%7B%B2%FF%7B%E1%B3%B2%D7%FE%E1%B2%F7%F4%F7%F1%E6%F7%E1%B2%FF%FB%E0%F3%FE%FE%E1%B2%E1%B5%F3%FC%FD%FF%F7%FC%F7%FC%B2%E1%FB%FF%F7%E6%E0%FB%F7%E1%B2%F3%EA%FB%F3%FE%E1%B3%B2%BA%D3%EA%FB%F3%FE%B2%AF%B2%C1%F7%F5%E7%FB%FC%E6%B2%E7%FC%B2%F3%EA%FB%E1%BE%B2%E7%FC%F3%B2%E0%F7%F1%E6%F3%BB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%FF%F3%E6%F7%FFr%E6%FB%F1%F3%B2%E3%E7%F3%FC%B2%E2%F3%E0%FE%F7%FF%B2%F6%B5%F7%F4%F7%F1%E6%F7%B2%FF%FB%E0%F3%FE%FE%B2%7B%E1%BC%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C1%FB%FF%F7%E6%E0%FB%F3%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B2%BA%F1%FD%FC%E1%E6%F3%FC%E6%BB%B2%7B%E1%B2%F6%F7%B2%A3%A0%B2%BD%B2%AA%B2%AF%B2%A3%BC%A7%BC%B2%C2%F7%E0%B2%E6%F3%FC%E6%A8%B2%A4%B2%25%B2%A3%BC%A7%B2%AF%B2%AB%B3%B2%DF%FD%FE%E6%B2%F0%7B%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%E6%F7%FC%E6%F3%B2%F1%F3%FE%F1%E7%FE%F3%E0%B2%E2%E0%FB%FF%F7%E0%B2%FE%F3%B2%F1%FD%FC%E1%E6%F3%FC%E6%B2%F6%F7%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%FB%E6%F3%E6%B2%FB%B2%F6%F7%E1%E2%E0%7B%E1%B2%FF%E7%FE%E6%FB%E2%FE%FB%F1%F3%BF%FE%F3%B3%B2%C2%FD%E6%E1%B2%F4%F7%E0%B2%E7%FC%F3%B2%E6%F3%E7%FE%F3%B2%E1%FB%B2%E4%FD%FE%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C6%F7%FC%FB%FF%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BC%B2%DE%F3%B2%F0%F3%E1%F7%B2%F6%F7%FE%B2%E2%E0%FB%FF%F7%E0%B2%7B%E1%B2%F6%F7%B2%AA%F1%FF%BE%B2%FB%B2%FE%F3%B2%F6%F7%FE%B2%E1%F7%F5%FD%FC%B2%F6%F7%B2%A3%A0%F1%FF%BC%B2%C1%FB%B2%FE%B5%F3%FE%E6%E7%E0%F3%B2%F6%F7%FE%B2%E2%E0%FB%FF%F7%E0%B2%7B%E1%B2%F6%F7%B2%A4%F1%FF%BE%B2%E3%E7%FB%FC%F3%B2%7B%E1%B2%FE%F3%B2%F6%F7%FE%B2%E1%F7%F5%FD%FC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%AB%B2%F1%FF%B0%BE%B0%A3%A2%B2%F1%FF%B0%BE%B0%A6%B2%F1%FF%B0%BE%B0%AA%B2%F1%FF%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D3%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%D7%FC%B2%A0%B2%F6%FB%FF%F7%FC%E1%FB%FD%FC%E1%BE%B2%E2%FD%F6%F7%FF%B2%F4%F7%E0%B2%FE%F7%E1%B2%E0%FD%E6%F3%F1%FB%FD%FC%E1%B2%F3%FE%B2%E4%FD%FE%E6%F3%FC%E6%B2%F6%B5%E7%FC%B2%E2%E7%FC%E6%BE%B2%F3%FE%B2%E3%E7%F7%B2%F3%FC%FD%FF%F7%FC%F7%FF%B2%F1%F7%FC%E6%E0%F7%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%E3%E7%F7%B2%F4%F7%FF%B2%E1%F7%E0%E4%FB%E0%B2%F3%B2%FF%F3%E6%F7%FFr%E6%FB%E3%E7%F7%E1%B2%E3%E7%F3%FC%B2%E2%F3%E0%FE%F7%FF%B2%F6%F7%B2%F5%FB%E0%E1%B2%7B%E1%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C0%FD%E6%F3%F1%FBa%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A0%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%D8%F3%B2%E3%E7%F7%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%F6%F7%B2%AB%A2%28%B2%FB%BE%B2%F1%FD%FF%B2%E3%E7%F7%B2%F7%FE%E1%B2%A6%B2%F1%FD%E1%E6%F3%E6%E1%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%E1%F7%FF%E2%E0%F7%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B2%F3%FF%F0%B2%F3%FE%E6%E0%F7%E1%B2%E3%E7%F3%F6%E0%F3%E6%E1%BE%B2%E6%F7%FC%FB%FF%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%DB%B2%F1%FD%E1%E6%F3%E6%E1%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D6%FD%E1%B2%E3%E7%F3%F6%E0%F3%E6%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%F7%FC%E6%E0%F7%B2%F7%FE%FE%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%B0%BE%B0%D4%F3%FE%E1%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A0%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%DB%FF%F3%F5%FB%FC%F3%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%BE%B2%FF%F3%E6%F7%FB%EA%F3%B2%F3%FF%E2%FE%F3%F6%F3%BE%B2%E2%F7%E0%60%B2%E7%FC%B2%FF%FD%FE%E6%B2%FF%7B%E1%B2%F3%FE%E6%BC%B2%C6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%E2%F7%E0%60%B2%F7%FE%E1%B2%F1%FD%E1%E6%F3%E6%E1%B2%FC%FD%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%BE%B2%FF%F3%E6%F7%FB%EA%F3%B2%F3%FF%E2%FE%F3%F6%F3%BE%B2%E2%F7%E0%60%B2%E7%FC%B2%FF%FD%FE%E6%B2%FF%7B%E1%B2%F3%FE%E6%BC%B2%C6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%E2%F7%E0%60%B2%F7%FE%E1%B2%F1%FD%E1%E6%F3%E6%E1%B2%FC%FD%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C2%F7%E0%B2%F3%B2%E3%E7%F7%B2%F6%FD%E1%B2%E2%FD%FE%7F%F5%FD%FC%E1%B2%E1%FB%F5%E7%FB%FC%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BE%B2%F0%F3%E1%E6%F3%B2%E3%E7%F7%B2%E6%FB%FC%F5%E7%FB%FC%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%BE%B2%E1%FB%B2%E6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E7%FC%F3%B2%FA%F3%B2%F6%F7%B2%E1%F7%E0%B2%E8%FD%FD%FF%B2%F6%F7%B2%FE%B5%F3%FE%E6%E0%F3%B0%BE%B0%D4%F3%FE%E1%BE%B2%E2%FD%F6%F7%FC%B2%E3%E7%F7%F6%F3%E0%B2%F6%F7%F4%FD%E0%FF%F3%F6%F7%E1%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%F7%E0%E6%A8%B2%D3%E3%E7%7F%BE%B2%E1%FB%B2%F6%FB%E4%FB%F6%FB%FF%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F7%FC%E6%E0%F7%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%BE%B2%E6%F7%FC%FB%FF%B2%FE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%D4%F3%FE%E1%BC%B2%D1%F3%FE%F1%E7%FE%F3%B2%E2%E0%FB%FF%F7%E0%B2%FE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B2%F6%FB%E4%FB%F6%FB%FC%E6%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F7%FC%E6%E0%F7%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C6%F7%FC%FB%FF%B2%F6%FD%E1%B2%E6%E0%FB%F3%FC%F5%FE%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BC%B2%C7%FC%B2%F6%B5%F7%FE%FE%E1%B2%E6%7B%B2%F3%FE%E6%E7%E0%F3%B2%A3%A0%F1%FF%B2%FB%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%A6%A2%F1%FF%BC%B2%D7%FE%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F6%F7%B2%FE%B5%F3%FE%E6%E0%F7%B2%7B%E1%B2%A0%A7%F1%FF%BC%B2%C3%E7%FB%FC%F3%B2%7B%E1%B2%FE%F3%B2%E1%F7%E4%F3%B2%F3%FE%E6%E7%E0%F3%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%A5%BC%A7%B2%F1%FF%B0%BE%B0%D3%E2%E0%FD%EA%FB%FF%F3%F6%F3%FF%F7%FC%E6%BE%B2%AA%A1%BC%A1%F1%FF%B0%BE%B0%A4%B2%F1%FF%B0%BE%B0%D3%E2%E0%FD%EA%FB%FF%F3%F6%F3%FF%F7%FC%E6%B2%AA%BC%A1%B2%F1%FF%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D3%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%D7%FC%B2%F3%E3%E7%F7%E1%E6%B2%E6%F7%FF%F3%BE%B2%F7%FC%E1%B2%FC%B5%FD%F0%FE%FB%F6%F7%FF%B2%F6%F7%B2%FE%F7%E1%B2%FB%FC%E4%F7%E0%E1%F7%E1%B2%F8%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D7%FE%B2%E6%FB%E2%E7%E1%B2%F6%F7%B2%E0%F7%FE%F3%F1%FBa%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%B2%BA%D6%FB%E0%F7%F1%E6%F3%B2%BD%B2%DB%FC%E4%F7%E0%E1%F3%BB%B2%F7%FC%E6%E0%F7%B2%F6%E7%F7%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%7B%E1%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%D6%FB%E0%F7%F1%E6%F3%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%DB%B2%E1%F7%FF%E2%E0%F7%B2%F6%FB%E0%F7%F1%E6%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%BE%B2%F6%B5%F3%E3%E7%F7%E1%E6%B2%E6%F7%FF%F3%BE%B2%7B%E1%B2%F7%E3%E7%FB%E4%F3%FE%F7%FC%B2%F3%B2%E7%FC%B2%F1%FD%FC%F1%F7%E2%E6%F7%B2%F6%F7%B2%FE%B5%F3%FC%E6%F7%E0%FB%FD%E0%BC%B2%C0%F7%F1%FD%E0%F6%F7%E1%B2%E3%E7%FB%FC%B2%F7%E0%F3%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%D1%FD%FC%E1%E6%F3%FC%E6%B2%F6%F7%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%FB%E6%F3%E6%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%E7%FC%B2%E3%E7%F3%F6%E0%F3%E6%B2%F4%FD%E0%FF%F3%E6%B2%E2%F7%E0%B2%A6%B2%F7%E1%F1%E7%E0%F3%F6%F7%FC%E6%E1%B2%F3%F4%F7%E0%E0%F3%E6%E1%BC%B2%D3%E0%F3%B2%F3%F5%F3%F4%F3%B2%F6%FD%E1%B2%F1%F3%FC%E6%FD%FC%E1%B2%FD%E2%FD%E1%F3%E6%E1%B2%FB%B2%F7%E1%E6%FB%E0%F3%B5%FE%E1%BC%B2%C6%F7%FC%FB%FF%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E2%F7%E0%60%B2%E7%FC%F3%B2%F4%FB%F5%E7%E0%F3%B2%F6%F7%F4%FD%E0%FF%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%E7%FC%B2%E3%E7%F3%F6%E0%F3%E6%B2%F4%FD%E0%FF%F3%E6%B2%E2%F7%E0%B2%A6%B2%F7%E1%F1%E7%E0%F3%F6%F7%FC%E6%E1%B2%F3%F4%F7%E0%E0%F3%E6%E1%BC%B2%D3%E0%F3%B2%F3%F5%F3%F4%F3%B2%F6%FD%E1%B2%F1%F3%FC%E6%FD%FC%E1%B2%FD%E2%FD%E1%F3%E6%E1%B2%FB%B2%F7%E1%E6%FB%E0%F3%B5%FE%E1%BC%B2%C6%F7%FC%FB%FF%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E2%F7%E0%60%B2%E7%FC%F3%B2%F4%FB%F5%E7%E0%F3%B2%F6%F7%F4%FD%E0%FF%F3%F6%F3%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D6%FD%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%F3%FF%F0%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%BC%B2%C1%FB%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%E6%F3%FF%F0%7B%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B2%BA%E0%F3a%B2%AF%B2%A3%BB%B0%BE%B0%D4%F3%FE%E1%BC%B2%5B%E1%B2%FC%F7%F1%F7%E1%E1%F3%E0%FB%B2%E3%E7%F7%B2%E1%FB%F5%E7%FB%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%BE%B2%FC%FD%B2%FB%F5%E7%F3%FE%E1%B0%BE%B0%D4%F3%FE%E1%BC%B2%D7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E2%FD%F6%E0%FB%F7%FC%B2%E1%F7%E0%B2%F6%FB%E1%E6%FB%FC%E6%E1%B0%BE%B0%D1%F7%E0%E6%BC%B2%C1%FB%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E6%F3%FF%F0%7B%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%D6%F7%E1%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%FD%E0%F6%F7%E0%B0%A8%A2%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A1%BC%A3%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F3%E7%F6%FB%FD%D4%F7%F7%F6%D0%F3%F1%FA%B0%A8%F4%F3%FE%E1%F7%BE%B0%FF%FD%F6%F7%D0%FD%F3%E0%F6%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%B0%BE%B0%FB%F6%B0%A8%B0%A0%A2%A0%A7%A1%A0%AB%A7%A7%AB%A0%A2%BF%A4%A2%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C0%F7%F3%F6%EB%B0%A8%B0%D3%B2%E2%E7%FC%E6%AD%B0%BE%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%F1%FD%FF%F7%FCu%F3%E0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D7%FC%E4%FB%F3%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%D7%FC%E6%E0%F3%B2%F7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B2%FC%FD%B2%7B%E1%B2%F1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%D5%F3%FF%F7%DD%E4%F7%E0%B0%A8%B0%D4%FB%B2%F6%F7%FE%B2%F8%FD%F1%B3%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D5%F7%FC%FB%F3%FE%BC%B2%DE%F3%B2%E2%FB%E1%E6%F3%B2%7B%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%E7%FC%F3%B2%E2%F3%E0%E6%FB%F6%F3%B2%FC%FD%E4%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DA%F3%E1%B0%A8%B0%DA%F7%E7%B2%FD%F0%E6%FB%FC%F5%E7%E6%B2%B7%A3%B2%F7%FC%F1%F7%E0%E6%E1%B2%B2%FB%B2%B7%A0%B2%F7%E0%E0%F3%F6%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%D3%F5%F3%FB%FC%B0%A8%B0%D8%E7%F5%F3%B2%F6%F7%B2%FC%FD%E7%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%C0%F7%E3%E7%F7%E0%FB%E6%B2%F7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%B2%E3%E7%F7%B2%F0%E7%E1%F1%F3%E4%F7%E1%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%F8%E7%F5%F3%E0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%D7%E0%E0%FD%E0%E1%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%D7%FC%F1%F7%E0%E6%E1%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%FC%E6%E7%F3%F1%FBa%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E6%E8%F3%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E6%E8%F3%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%C6%F7%FF%E2%E1%B2%E2%F7%E0%B2%E2%E0%F7%F5%E7%FC%E6%F3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%C4%FB%F6%F3%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C1%E7%E0%E6%B2%F6%F7%B2%FE%F3%B2%E2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%DC%FD%FF%F0%E0%F7%B2%F6%F7%B2%E3n%F7%E1%E6%FB%FD%FC%E1%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%C3n%F7%E1%E6%FBa%B2%E1%F7%FC%E1%F7%B2%FB%FF%F3%E6%F5%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%D5%F7%FC%FB%F3%FE%B3%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%A1%A1%A2%B2%E2%E7%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%E7%FC%F3%B2%E4%FB%F6%F3%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%E6%FD%E6%F7%E1%B2%FE%F7%E1%B2%E4%FB%F6%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%C3n%F7%E1%E6%FBa%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%D0%7B%B3%B2%EE%B2%DF%FD%FE%E6%B2%F0%7B%B3%B2%EE%B2%D5%F7%FC%FB%F3%FE%B3%B2%EE%B2%D7%EA%F1%F7%FE%B2%25%B2%FE%F7%FC%E6%B3%B2%EE%B2%C2%F7%E0%F4%F7%F1%E6%F7%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%DC%FD%B2%F7%E0%F3%B2%F3%FB%EA%7F%B3%B2%EE%B2%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%EE%B2%DC%FD%B2%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%EE%B2%DA%FD%B2%E1%F7%FC%E6%FD%B3%B2%EE%B2%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%DC%FD%E6%DC%F7%E6%E5%FD%E0%F9%B0%A8%B0%C1%FD%FE%E1%B2%E2%FD%F6%F7%E7%B2%F8%E7%F5%F3%E0%B2%F3%B2%F3%E3%E7%F7%E1%E6%B2%F8%FD%F1%B2%F3%FF%F0%B2%F1%FD%FC%FC%F7%EA%FBa%B2%F3%B2%DB%FC%E6%F7%E0%FC%F7%E6%BC%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%DB%FC%FB%F1%FB%F3%B2%F7%FE%B2%F8%FD%F1%BC%BC%BC%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%FC%FD%B2%F7%E1%B2%E2%FD%E6%B2%F6%F7%E1%F3%E0%B2%F8%F3%B2%E3%E7%F7%B2%F3%E3%E7%F7%E1%E6%F3%B2%E2r%F5%FB%FC%F3%B2%FC%FD%B2%F4%FD%E0%FF%F3%B2%E2%F3%E0%E6%B2%F6%F7%B2%E7%FC%B2%E2%F3%E3%E7%F7%E6%B2%C1%D1%DD%C0%DF%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C3n%F7%E1%E6%FBa%B0%BE%B0%FF%E1%F5%D3%FC%E1%E5%F7%E0%B0%A8%B0%D1%FD%FF%E2%E0%FD%E4%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%C1%FD%FE%E1%B2%E2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%C1%FD%FE%E1%B2%FE%F3%B2%E2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%DB%FC%F4%FD%E0%FF%F3%F1%FBa%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2%E1%F7%E4%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FD%E0%FB%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F7%E1%B2%F6%F7%E1%F3%E0r%B2%F6%F7%E1%E2%E0%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B2%DC%FD%FF%7B%E1%B2%E2%FD%F6%F7%E7%B2%B2%F8%E7%F5%F3%E0%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F7%E1%B2%F6%F7%E1%F3%E0r%B2%F6%F7%E1%E2%E0%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%B2%F6%F7%B2%F4%FD%E0%FF%F3%B2%F3%E7%E6%FD%FFr%E6%FB%F1%F3%BC%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%C2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%E6%F3%FC%E6%F7%E1%B2%E4%F7%F5%F3%F6%F7%E1%B2%F1%FD%FF%B2%E4%E7%FE%F5%E7%F7%E7%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2%F6%F3%E0%E0%F7%E0%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F6%F7%E1%F3%F6%F3%B2%7B%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%D8%F3%B2%FA%F7%E7%B2%F4%F7%E6%B2%F3%E3%E7%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%E6%F3%E6%BC%B2%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%C2%FD%F6%F7%E7%B2%F4%F7%E0%B2%F3%E3%E7%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%E6%F3%E6%B2%E6%F3%FC%E6%F7%E1%B2%E4%F7%F5%F3%F6%F7%E1%B2%F1%FD%FF%B2%E4%E7%FE%F5%E7%F7%E7%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%D1%F3%FE%B2%F3%FE%FF%F7%FC%EB%E1%B2%B7%E1%B7%B2%F6%F7%B2%E0%F7%E1%E2%FD%E1%E6%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%F7%E1%B2%E2%F7%E0%B2%FD%F0%E6%F7%FC%FB%E0%B2%FE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%BC%B2%C6%FD%E0%FC%F3%BF%FA%FD%B2%F3%B2%E2%E0%FD%E4%F3%E0%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%7F%F6%F7%FD%B2%FB%FC%E6%E0%FD%F6%E7%F1%E6%FD%E0%FB%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%C6%F3%FC%F1%F3%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%DD%E2%F1%FBa%B0%BE%B0%FF%E1%F5%C0%FB%F1%F9%C6%F7%EA%E6%B0%A8%B0%C6%F7%EA%E6%B2%F7%FC%E0%FB%E3%E7%FB%E6%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%FB%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%B2%E3%E7%F7%B2%E1%F7%E0r%B2%FF%FD%FE%E6%B2h%E6%FB%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%C1%B5%F7%E1%E6r%B2%F1%F3%E0%E0%F7%F5%F3%FC%E6%BC%B2%D7%E1%E2%F7%E0%F7%E7%BC%BC%BC%B0%BE%B0%FF%E1%F5%DD%E0%F6%F7%E0%E1%B0%A8%B0%DD%E0%F6%F7%FC%F3%B2%FE%F7%E1%B2%E0%F7%E1%E2%FD%E1%E6%F7%E1%B0%BE%B0%FF%E1%F5%DB%FC%F6%FB%F1%F3%E6%F7%C5%FD%E0%F6%B0%A8%B0%C2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%B2%E7%FC%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%FD%B2%F4%E0%F3%E1%F7%B0%BE%B0%FF%E1%F5%DF%FD%E4%F7%DD%FC%F7%B0%A8%B0%C2%F3%E1%E1%F3%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%E2%E7%FC%E6%E1%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0R%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D1%FD%E0%E0%F7%F1%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F1%FD%E0%E0%F7%F1%E6%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%B2%FB%FC%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%BC%B2%C1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%A8%B2%DC%FD%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3n%F7%E1%E6%FB%FD%FC%F3%E0%FB%B2%F6%F7%B2%E6%E0%FB%F3%B2%FFh%FE%E6%FB%E2%FE%F7%B0%EF%EF&lt;/div&gt;&lt;a href=&quot;resources/Ampla.png&quot; class=&quot;js-hidden selecciona-LinkImages&quot;&gt;0&lt;/a&gt;&lt;div class=&quot;selecciona-bns js-hidden&quot;&gt;El vostre navegador no és compatible amb aquesta eina.&lt;/div&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;Amb això, intenta contestar les següents preguntes:&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;selecciona-version js-hidden&quot;&gt;undefined&lt;/div&gt;&lt;div class=&quot;selecciona-feedback-game&quot;&gt;&lt;/div&gt;&lt;div class=&quot;selecciona-DataGame js-hidden&quot; &gt;%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C1%F7%FE%F7%F1%F1%FB%FD%FC%F3%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%D3%FC%F7%FF%B7%A0%A2%F3%B7%A0%A2%E0%F7%E2%F3%E1%E1%F3%E0%B7%A0%A2%E7%FC%F3%B7%A0%A2%FF%FB%F1%F3%B7%A0%A2%E6%FD%E6%B7%A0%A2%F7%FE%B7%A0%A2%E3%E7%F7%B7%A0%A2%FA%F7%FF%B7%A0%A2%F6%FB%E6%B7%A1%D3%B7%D3%A2%B7%A1%D1%BD%E2%B7%A1%D7%B7%A2%D3%B7%A1%D1%E7%FE%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%D6%E7%F7%E1%B7%A0%A2%F4%FB%F5%E7%E0%F7%E1%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%A2%E1%FB%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%FE%F3%B7%A0%A2%FF%F3%E6%F7%FB%EA%F3%B7%A0%A2%F4%FD%E0%FF%F3%B7%A0%A2%B7%A0%AA%E8%FD%FD%FF%E1%B7%A0%D1%B7%A0%A2%F5%FB%E0%E1%B7%A0%A2%FB%B7%A0%A2%FF%FB%E0%F3%FE%FE%E1%B7%A0%AB%BC%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%D6%FD%E1%B7%A0%A2%E2%FD%FE%B7%D7%D6%F5%FD%FC%E1%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%FE%F3%B7%A0%A2%FF%F3%E6%F7%FB%EA%F3%B7%A0%A2%F4%FD%E0%FF%F3%B7%A0%A2%B7%A0%AA%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%AB%B7%A0%A2%E1%FB%B7%A0%A2%E6%F7%FC%F7%FC%B7%A0%A2%E6%FD%E6%E1%B7%A0%A2%F7%FE%E1%B7%A0%A2%F3%FC%F5%FE%F7%E1%B7%A0%A2%FB%F5%E7%F3%FE%E1%B7%A0%A2%DB%B7%A0%A2%F7%FE%E1%B7%A0%A2%F1%FD%E1%E6%F3%E6%E1%B7%A0%A2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%BC%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%FE%FB%B7%A1%D7%B7%A1%D1%F0%B7%A1%D7%C1%FB%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B7%A0%D1%B7%A0%A2%FE%F7%E1%B7%A0%A2%FE%FD%FC%F5%FB%E6%E7%F6%E1%B7%A0%A2%B7%A0%AA%F7%FE%E1%B7%A0%A2%F1%FD%E1%E6%F3%E6%E1%B7%A0%AB%B7%A0%A2%E1%B7%D4%A1%FC%B7%A0%A2%D6%FB%E0%F7%F1%E6%F3%FF%F7%FC%E6%B7%A0%A2%C2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B7%D3%A2%B7%A1%D1%BD%F0%B7%A1%D7%B7%A1%D1%BD%FE%FB%B7%A1%D7%B7%A2%D3%B7%A1%D1%BD%E7%FE%B7%A1%D7%B7%A2%D3%B7%A1%D1%E2%B7%A1%D7%D3%FF%F0%B7%A0%A2%F3%FB%EA%B7%D4%A0%B7%A0%D1%B7%A0%A2%FB%FC%E6%F7%FC%E6%F3%B7%A0%A2%F1%FD%FC%E6%F7%E1%E6%F3%E0%B7%A0%A2%FE%F7%E1%B7%A0%A2%E1%F7%F5%B7%D4%D1%F7%FC%E6%E1%B7%A0%A2%E2%E0%F7%F5%E7%FC%E6%F7%E1%B7%A1%D3%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%C1%F7%FE%F7%F1%F1%FB%FD%FC%F3%B2%FE%F3%E1%B2%E0%F7%E1%E2%E7%F7%E1%E6%F3%E1%B2%F1%FD%E0%E0%F7%F1%E6%F3%E1%B2%EB%B2%E2%E7%FE%E1%F3%B2%E1%FD%F0%E0%F7%B2%F7%FE%B2%F0%FD%E6a%FC%B2%CE%B0%E0%F7%E1%E2%FD%FC%F6%F7%E0%CE%B0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E1%F7%FE%F7%F1%E6%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A3%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%E0%F7%E1%FD%E7%E0%F1%F7%E1%BD%D3%FF%E2%FE%F3%BC%E2%FC%F5%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%D7%FC%B2%E0%F7%F3%FE%FB%E6%F3%E6%BE%B2%F6%FB%E0%F7%FF%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%D6%D7%D4%DD%C0%DF%D3%C6%B2%BA%FA%F3%B2%E2%F7%E0%F6%E7%E6%B2%FE%F3%B2%F4%FD%E0%FF%F3%BB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D3%E3%E7%F7%E1%E6%F7%E1%B2%F6%E7%F7%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%E1a%FC%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%F7%FC%E6%E0%F7%B2%F7%FE%FE%F7%E1%A8%B2%D1%F7%E0%E6%B2%FD%B2%D4%F3%FE%E1%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E8%FD%FD%FF%B2%FA%FD%E0%FB%E6%E8%FD%FC%E6%F3%FE%B2%E2%F7%E0%60%B2%FC%FD%B2%E4%F7%E0%E6%FB%F1%F3%FE%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E7%FC%B2%F5%FB%E0%B0%BE%B0%D4%F3%FE%E1%BE%B2%F8%F3%B2%E3%E7%F7%B2%E1%B5%FA%F3%B2%F4%F7%E6%B2%E7%FC%F3%B2%E1%FB%FF%F7%E6%E0%FB%F3%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%DB%B2%F7%FC%F1%F3%E0%F3%B2%F7%E6%B2%F6%FB%E0%7B%B2%FF%7B%E1%B3%B2%D7%FE%E1%B2%F7%F4%F7%F1%E6%F7%E1%B2%FF%FB%E0%F3%FE%FE%E1%B2%E1%B5%F3%FC%FD%FF%F7%FC%F7%FC%B2%E1%FB%FF%F7%E6%E0%FB%F7%E1%B2%F3%EA%FB%F3%FE%E1%B3%B2%BA%D3%EA%FB%F3%FE%B2%AF%B2%C1%F7%F5%E7%FB%FC%E6%B2%E7%FC%B2%F3%EA%FB%E1%BE%B2%E7%FC%F3%B2%E0%F7%F1%E6%F3%BB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%FF%F3%E6%F7%FFr%E6%FB%F1%F3%B2%E3%E7%F3%FC%B2%E2%F3%E0%FE%F7%FF%B2%F6%B5%F7%F4%F7%F1%E6%F7%B2%FF%FB%E0%F3%FE%FE%B2%7B%E1%BC%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C1%FB%FF%F7%E6%E0%FB%F3%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B2%BA%F1%FD%FC%E1%E6%F3%FC%E6%BB%B2%7B%E1%B2%F6%F7%B2%A3%A0%B2%BD%B2%AA%B2%AF%B2%A3%BC%A7%BC%B2%C2%F7%E0%B2%E6%F3%FC%E6%A8%B2%A4%B2%25%B2%A3%BC%A7%B2%AF%B2%AB%B3%B2%DF%FD%FE%E6%B2%F0%7B%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%E6%F7%FC%E6%F3%B2%F1%F3%FE%F1%E7%FE%F3%E0%B2%E2%E0%FB%FF%F7%E0%B2%FE%F3%B2%F1%FD%FC%E1%E6%F3%FC%E6%B2%F6%F7%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%FB%E6%F3%E6%B2%FB%B2%F6%F7%E1%E2%E0%7B%E1%B2%FF%E7%FE%E6%FB%E2%FE%FB%F1%F3%BF%FE%F3%B3%B2%C2%FD%E6%E1%B2%F4%F7%E0%B2%E7%FC%F3%B2%E6%F3%E7%FE%F3%B2%E1%FB%B2%E4%FD%FE%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C6%F7%FC%FB%FF%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BC%B2%DE%F3%B2%F0%F3%E1%F7%B2%F6%F7%FE%B2%E2%E0%FB%FF%F7%E0%B2%7B%E1%B2%F6%F7%B2%AA%F1%FF%BE%B2%FB%B2%FE%F3%B2%F6%F7%FE%B2%E1%F7%F5%FD%FC%B2%F6%F7%B2%A3%A0%F1%FF%BC%B2%C1%FB%B2%FE%B5%F3%FE%E6%E7%E0%F3%B2%F6%F7%FE%B2%E2%E0%FB%FF%F7%E0%B2%7B%E1%B2%F6%F7%B2%A4%F1%FF%BE%B2%E3%E7%FB%FC%F3%B2%7B%E1%B2%FE%F3%B2%F6%F7%FE%B2%E1%F7%F5%FD%FC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%AB%B2%F1%FF%B0%BE%B0%A3%A2%B2%F1%FF%B0%BE%B0%A6%B2%F1%FF%B0%BE%B0%AA%B2%F1%FF%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D3%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%D7%FC%B2%A0%B2%F6%FB%FF%F7%FC%E1%FB%FD%FC%E1%BE%B2%E2%FD%F6%F7%FF%B2%F4%F7%E0%B2%FE%F7%E1%B2%E0%FD%E6%F3%F1%FB%FD%FC%E1%B2%F3%FE%B2%E4%FD%FE%E6%F3%FC%E6%B2%F6%B5%E7%FC%B2%E2%E7%FC%E6%BE%B2%F3%FE%B2%E3%E7%F7%B2%F3%FC%FD%FF%F7%FC%F7%FF%B2%F1%F7%FC%E6%E0%F7%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%C3%E7%F3%FC%B2%F3%F1%F3%F0%FB%E1%BE%B2%E2%E0%FD%E4%F3%B2%F3%B2%E0%F7%FB%FC%FB%F1%FB%F3%E0%B2%E2%F7%E0%B2%E4%F7%E7%E0%F7%B2%E1%FB%B2%FA%FD%B2%F3%F1%FD%FC%E1%F7%F5%E7%F7%FB%EA%F7%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%E3%E7%F7%B2%F4%F7%FF%B2%E1%F7%E0%E4%FB%E0%B2%F3%B2%FF%F3%E6%F7%FFr%E6%FB%E3%E7%F7%E1%B2%E3%E7%F3%FC%B2%E2%F3%E0%FE%F7%FF%B2%F6%F7%B2%F5%FB%E0%E1%B2%7B%E1%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C0%FD%E6%F3%F1%FBa%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A0%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%D8%F3%B2%E3%E7%F7%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%F6%F7%B2%AB%A2%28%B2%FB%BE%B2%F1%FD%FF%B2%E3%E7%F7%B2%F7%FE%E1%B2%A6%B2%F1%FD%E1%E6%F3%E6%E1%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%E1%F7%FF%E2%E0%F7%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B2%F3%FF%F0%B2%F3%FE%E6%E0%F7%E1%B2%E3%E7%F3%F6%E0%F3%E6%E1%BE%B2%E6%F7%FC%FB%FF%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%DB%B2%F1%FD%E1%E6%F3%E6%E1%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D6%FD%E1%B2%E3%E7%F3%F6%E0%F3%E6%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%F7%FC%E6%E0%F7%B2%F7%FE%FE%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%B0%BE%B0%D4%F3%FE%E1%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D3%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A0%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B3%B2%DB%FF%F3%F5%FB%FC%F3%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%BE%B2%FF%F3%E6%F7%FB%EA%F3%B2%F3%FF%E2%FE%F3%F6%F3%BE%B2%E2%F7%E0%60%B2%E7%FC%B2%FF%FD%FE%E6%B2%FF%7B%E1%B2%F3%FE%E6%BC%B2%C6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%E2%F7%E0%60%B2%F7%FE%E1%B2%F1%FD%E1%E6%F3%E6%E1%B2%FC%FD%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%F6%FD%E1%B2%E0%F7%F1%E6%F3%FC%F5%FE%F7%E1%BE%B2%FF%F3%E6%F7%FB%EA%F3%B2%F3%FF%E2%FE%F3%F6%F3%BE%B2%E2%F7%E0%60%B2%E7%FC%B2%FF%FD%FE%E6%B2%FF%7B%E1%B2%F3%FE%E6%BC%B2%C6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B2%E2%F7%E0%60%B2%F7%FE%E1%B2%F1%FD%E1%E6%F3%E6%E1%B2%FC%FD%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C2%F7%E0%B2%F3%B2%E3%E7%F7%B2%F6%FD%E1%B2%E2%FD%FE%7F%F5%FD%FC%E1%B2%E1%FB%F5%E7%FB%FC%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BE%B2%F0%F3%E1%E6%F3%B2%E3%E7%F7%B2%E6%FB%FC%F5%E7%FB%FC%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%BE%B2%E1%FB%B2%E6%F7%FC%F7%FC%B2%F3%FC%F5%FE%F7%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E7%FC%F3%B2%FA%F3%B2%F6%F7%B2%E1%F7%E0%B2%E8%FD%FD%FF%B2%F6%F7%B2%FE%B5%F3%FE%E6%E0%F3%B0%BE%B0%D4%F3%FE%E1%BE%B2%E2%FD%F6%F7%FC%B2%E3%E7%F7%F6%F3%E0%B2%F6%F7%F4%FD%E0%FF%F3%F6%F7%E1%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%D1%F7%E0%E6%A8%B2%D3%E3%E7%7F%BE%B2%E1%FB%B2%F6%FB%E4%FB%F6%FB%FF%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F7%FC%E6%E0%F7%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%BE%B2%E6%F7%FC%FB%FF%B2%FE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%D4%F3%FE%E1%BC%B2%D1%F3%FE%F1%E7%FE%F3%B2%E2%E0%FB%FF%F7%E0%B2%FE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%B2%F6%FB%E4%FB%F6%FB%FC%E6%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F7%FC%E6%E0%F7%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%C6%F7%FC%FB%FF%B2%F6%FD%E1%B2%E6%E0%FB%F3%FC%F5%FE%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%BC%B2%C7%FC%B2%F6%B5%F7%FE%FE%E1%B2%E6%7B%B2%F3%FE%E6%E7%E0%F3%B2%A3%A0%F1%FF%B2%FB%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%A6%A2%F1%FF%BC%B2%D7%FE%B2%E2%F7%E0%7F%FF%F7%E6%E0%F7%B2%F6%F7%B2%FE%B5%F3%FE%E6%E0%F7%B2%7B%E1%B2%A0%A7%F1%FF%BC%B2%C3%E7%FB%FC%F3%B2%7B%E1%B2%FE%F3%B2%E1%F7%E4%F3%B2%F3%FE%E6%E7%E0%F3%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%A5%BC%A7%B2%F1%FF%B0%BE%B0%D3%E2%E0%FD%EA%FB%FF%F3%F6%F3%FF%F7%FC%E6%BE%B2%AA%A1%BC%A1%F1%FF%B0%BE%B0%A4%B2%F1%FF%B0%BE%B0%D3%E2%E0%FD%EA%FB%FF%F3%F6%F3%FF%F7%FC%E6%B2%AA%BC%A1%B2%F1%FF%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D3%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%D7%FC%B2%F3%E3%E7%F7%E1%E6%B2%E6%F7%FF%F3%BE%B2%F7%FC%E1%B2%FC%B5%FD%F0%FE%FB%F6%F7%FF%B2%F6%F7%B2%FE%F7%E1%B2%FB%FC%E4%F7%E0%E1%F7%E1%B2%F8%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D7%FE%B2%E6%FB%E2%E7%E1%B2%F6%F7%B2%E0%F7%FE%F3%F1%FBa%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%B2%BA%D6%FB%E0%F7%F1%E6%F3%B2%BD%B2%DB%FC%E4%F7%E0%E1%F3%BB%B2%F7%FC%E6%E0%F7%B2%F6%E7%F7%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B2%7B%E1%BC%BC%BC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%D6%FB%E0%F7%F1%E6%F3%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DF%FD%FE%E6%B2%F0%7B%B3%B2%DB%B2%E1%F7%FF%E2%E0%F7%B2%F6%FB%E0%F7%F1%E6%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%DE%F3%B2%E0%F3a%B2%F6%F7%B2%E1%F7%FF%F0%FE%F3%FCu%F3%BE%B2%F6%B5%F3%E3%E7%F7%E1%E6%B2%E6%F7%FF%F3%BE%B2%7B%E1%B2%F7%E3%E7%FB%E4%F3%FE%F7%FC%E6%B2%F3%B2%E7%FC%B2%F1%FD%FC%F1%F7%E2%E6%F7%B2%F6%F7%B2%FE%B5%F3%FC%E6%F7%E0%FB%FD%E0%BC%B2%C0%F7%F1%FD%E0%F6%F7%E1%B2%E3%E7%FB%FC%B2%F7%E0%F3%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%B0%BE%B0%B0%BE%B0%B0%BE%B0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%D1%FD%FC%E1%E6%F3%FC%E6%B2%F6%F7%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%FB%E6%F3%E6%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A0%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E6%EB%E2%F7%C1%F7%FE%F7%F1%E6%B0%A8%A2%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FA%FB%E6%B0%A8%BF%A3%BE%B0%F7%E0%E0%FD%E0%B0%A8%BF%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%E7%FC%B2%E3%E7%F3%F6%E0%F3%E6%B2%F4%FD%E0%FF%F3%E6%B2%E2%F7%E0%B2%A6%B2%F7%E1%F1%E7%E0%F3%F6%F7%FC%E6%E1%B2%F3%F4%F7%E0%E0%F3%E6%E1%BC%B2%D3%E0%F3%B2%F3%F5%F3%F4%F3%B2%F6%FD%E1%B2%F1%F3%FC%E6%FD%FC%E1%B2%FD%E2%FD%E1%F3%E6%E1%B2%FB%B2%F7%E1%E6%FB%E0%F3%B5%FE%E1%BC%B2%C6%F7%FC%FB%FF%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E2%F7%E0%60%B2%E7%FC%F3%B2%F4%FB%F5%E7%E0%F3%B2%F6%F7%F4%FD%E0%FF%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%DB%FF%F3%F5%FB%FC%F3%B2%E7%FC%B2%E3%E7%F3%F6%E0%F3%E6%B2%F4%FD%E0%FF%F3%E6%B2%E2%F7%E0%B2%A6%B2%F7%E1%F1%E7%E0%F3%F6%F7%FC%E6%E1%B2%F3%F4%F7%E0%E0%F3%E6%E1%BC%B2%D3%E0%F3%B2%F3%F5%F3%F4%F3%B2%F6%FD%E1%B2%F1%F3%FC%E6%FD%FC%E1%B2%FD%E2%FD%E1%F3%E6%E1%B2%FB%B2%F7%E1%E6%FB%E0%F3%B5%FE%E1%BC%B2%C6%F7%FC%FB%FF%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%BE%B2%E2%F7%E0%60%B2%E7%FC%F3%B2%F4%FB%F5%E7%E0%F3%B2%F6%F7%F4%FD%E0%FF%F3%F6%F3%B3%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%D6%FD%E1%B2%F4%FB%F5%E7%E0%F7%E1%B2%F3%FF%F0%B2%F1%FD%E1%E6%F3%E6%E1%B2%FB%F5%E7%F3%FE%E1%B2%E1a%FC%B2%E1%F7%FF%E2%E0%F7%B2%E1%F7%FF%F0%FE%F3%FC%E6%E1%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D1%F7%E0%E6%BC%B2%C1%FB%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%E6%F3%FF%F0%7B%B2%E1a%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%B2%BA%E0%F3a%B2%AF%B2%A3%BB%B0%BE%B0%D4%F3%FE%E1%BC%B2%5B%E1%B2%FC%F7%F1%F7%E1%E1%F3%E0%FB%B2%E3%E7%F7%B2%E1%FB%F5%E7%FB%FC%B2%E2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%FE%E1%BE%B2%FC%FD%B2%FB%F5%E7%F3%FE%E1%B0%BE%B0%D4%F3%FE%E1%BC%B2%D7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E2%FD%F6%E0%FB%F7%FC%B2%E1%F7%E0%B2%F6%FB%E1%E6%FB%FC%E6%E1%B0%BE%B0%D1%F7%E0%E6%BC%B2%C1%FB%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%BE%B2%F7%FE%E1%B2%F3%FC%F5%FE%F7%E1%B2%E6%F3%FF%F0%7B%B2%E1a%FC%B2%FB%F5%E7%F3%FE%E1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%D1%B0%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%A1%A7%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%D5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%FD%E0%F6%F7%E0%B0%A8%A2%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A1%BC%A3%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F3%E7%F6%FB%FD%D4%F7%F7%F6%D0%F3%F1%FA%B0%A8%F4%F3%FE%E1%F7%BE%B0%FF%FD%F6%F7%D0%FD%F3%E0%F6%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%B0%BE%B0%FB%F6%B0%A8%B0%A0%A2%A0%A7%A1%A0%AB%A7%A7%AB%A0%A2%BF%A4%A2%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C0%F7%F3%F6%EB%B0%A8%B0%D3%B2%E2%E7%FC%E6%AD%B0%BE%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%F1%FD%FF%F7%FCu%F3%E0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D7%FC%E4%FB%F3%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%D7%FC%E6%E0%F3%B2%F7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B2%FC%FD%B2%7B%E1%B2%F1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%D5%F3%FF%F7%DD%E4%F7%E0%B0%A8%B0%D4%FB%B2%F6%F7%FE%B2%F8%FD%F1%B3%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D5%F7%FC%FB%F3%FE%BC%B2%DE%F3%B2%E2%FB%E1%E6%F3%B2%7B%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%E7%FC%F3%B2%E2%F3%E0%E6%FB%F6%F3%B2%FC%FD%E4%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DA%F3%E1%B0%A8%B0%DA%F7%E7%B2%FD%F0%E6%FB%FC%F5%E7%E6%B2%B7%A3%B2%F7%FC%F1%F7%E0%E6%E1%B2%B2%FB%B2%B7%A0%B2%F7%E0%E0%F3%F6%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%D3%F5%F3%FB%FC%B0%A8%B0%D8%E7%F5%F3%B2%F6%F7%B2%FC%FD%E7%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%C0%F7%E3%E7%F7%E0%FB%E6%B2%F7%FE%B2%F1%FD%F6%FB%B2%F6%B5%F3%F1%F1%7B%E1%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%B2%E3%E7%F7%B2%F0%E7%E1%F1%F3%E4%F7%E1%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%C2%E0%F7%FF%B2%F3%E3%E7%7F%B2%E2%F7%E0%B2%F8%E7%F5%F3%E0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%D7%E0%E0%FD%E0%E1%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%D7%FC%F1%F7%E0%E6%E1%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%FC%E6%E7%F3%F1%FBa%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E6%E8%F3%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E6%E8%F3%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%C6%F7%FF%E2%E1%B2%E2%F7%E0%B2%E2%E0%F7%F5%E7%FC%E6%F3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%C4%FB%F6%F3%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C1%E7%E0%E6%B2%F6%F7%B2%FE%F3%B2%E2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%DC%FD%FF%F0%E0%F7%B2%F6%F7%B2%E3n%F7%E1%E6%FB%FD%FC%E1%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%C3n%F7%E1%E6%FBa%B2%E1%F7%FC%E1%F7%B2%FB%FF%F3%E6%F5%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%D5%F7%FC%FB%F3%FE%B3%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%A1%A1%A2%B2%E2%E7%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%E7%FC%F3%B2%E4%FB%F6%F3%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%DA%F7%E7%B2%E2%F7%E0%F6%E7%E6%B2%E6%FD%E6%F7%E1%B2%FE%F7%E1%B2%E4%FB%F6%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%C3n%F7%E1%E6%FBa%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%D0%7B%B3%B2%EE%B2%DF%FD%FE%E6%B2%F0%7B%B3%B2%EE%B2%D5%F7%FC%FB%F3%FE%B3%B2%EE%B2%D7%EA%F1%F7%FE%B2%25%B2%FE%F7%FC%E6%B3%B2%EE%B2%C2%F7%E0%F4%F7%F1%E6%F7%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%DC%FD%B2%F7%E0%F3%B2%F3%FB%EA%7F%B3%B2%EE%B2%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%EE%B2%DC%FD%B2%F1%FD%E0%E0%F7%F1%E6%F7%B3%B2%EE%B2%DA%FD%B2%E1%F7%FC%E6%FD%B3%B2%EE%B2%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%DC%FD%E6%DC%F7%E6%E5%FD%E0%F9%B0%A8%B0%C1%FD%FE%E1%B2%E2%FD%F6%F7%E7%B2%F8%E7%F5%F3%E0%B2%F3%B2%F3%E3%E7%F7%E1%E6%B2%F8%FD%F1%B2%F3%FF%F0%B2%F1%FD%FC%FC%F7%EA%FBa%B2%F3%B2%DB%FC%E6%F7%E0%FC%F7%E6%BC%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%DB%FC%FB%F1%FB%F3%B2%F7%FE%B2%F8%FD%F1%BC%BC%BC%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%FC%FD%B2%F7%E1%B2%E2%FD%E6%B2%F6%F7%E1%F3%E0%B2%F8%F3%B2%E3%E7%F7%B2%F3%E3%E7%F7%E1%E6%F3%B2%E2r%F5%FB%FC%F3%B2%FC%FD%B2%F4%FD%E0%FF%F3%B2%E2%F3%E0%E6%B2%F6%F7%B2%E7%FC%B2%E2%F3%E3%E7%F7%E6%B2%C1%D1%DD%C0%DF%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C3n%F7%E1%E6%FBa%B0%BE%B0%FF%E1%F5%D3%FC%E1%E5%F7%E0%B0%A8%B0%D1%FD%FF%E2%E0%FD%E4%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%C1%FD%FE%E1%B2%E2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%C1%FD%FE%E1%B2%FE%F3%B2%E2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%DB%FC%F4%FD%E0%FF%F3%F1%FBa%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2%E1%F7%E4%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FD%E0%FB%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F7%E1%B2%F6%F7%E1%F3%E0r%B2%F6%F7%E1%E2%E0%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B2%DC%FD%FF%7B%E1%B2%E2%FD%F6%F7%E7%B2%B2%F8%E7%F5%F3%E0%B2%E7%FC%F3%B2%E4%F7%F5%F3%F6%F3%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F7%E1%B2%F6%F7%E1%F3%E0r%B2%F6%F7%E1%E2%E0%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%B2%F6%F7%B2%F4%FD%E0%FF%F3%B2%F3%E7%E6%FD%FFr%E6%FB%F1%F3%BC%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%C2%FD%F6%F7%E7%B2%F6%F7%E1%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%E6%F3%FC%E6%F7%E1%B2%E4%F7%F5%F3%F6%F7%E1%B2%F1%FD%FF%B2%E4%E7%FE%F5%E7%F7%E7%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2%F6%F3%E0%E0%F7%E0%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%B2%F6%F7%E1%F3%F6%F3%B2%7B%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%D8%F3%B2%FA%F7%E7%B2%F4%F7%E6%B2%F3%E3%E7%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%E6%F3%E6%BC%B2%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%C2%FD%F6%F7%E7%B2%F4%F7%E0%B2%F3%E3%E7%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%E6%F3%E6%B2%E6%F3%FC%E6%F7%E1%B2%E4%F7%F5%F3%F6%F7%E1%B2%F1%FD%FF%B2%E4%E7%FE%F5%E7%F7%E7%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%D1%F3%FE%B2%F3%FE%FF%F7%FC%EB%E1%B2%B7%E1%B7%B2%F6%F7%B2%E0%F7%E1%E2%FD%E1%E6%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%F7%E1%B2%E2%F7%E0%B2%FD%F0%E6%F7%FC%FB%E0%B2%FE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%BC%B2%C6%FD%E0%FC%F3%BF%FA%FD%B2%F3%B2%E2%E0%FD%E4%F3%E0%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%7F%F6%F7%FD%B2%FB%FC%E6%E0%FD%F6%E7%F1%E6%FD%E0%FB%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%C6%F3%FC%F1%F3%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%DD%E2%F1%FBa%B0%BE%B0%FF%E1%F5%C0%FB%F1%F9%C6%F7%EA%E6%B0%A8%B0%C6%F7%EA%E6%B2%F7%FC%E0%FB%E3%E7%FB%E6%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%FB%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%B2%E3%E7%F7%B2%E1%F7%E0r%B2%FF%FD%FE%E6%B2h%E6%FB%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%C1%B5%F7%E1%E6r%B2%F1%F3%E0%E0%F7%F5%F3%FC%E6%BC%B2%D7%E1%E2%F7%E0%F7%E7%BC%BC%BC%B0%BE%B0%FF%E1%F5%DD%E0%F6%F7%E0%E1%B0%A8%B0%DD%E0%F6%F7%FC%F3%B2%FE%F7%E1%B2%E0%F7%E1%E2%FD%E1%E6%F7%E1%B0%BE%B0%FF%E1%F5%DB%FC%F6%FB%F1%F3%E6%F7%C5%FD%E0%F6%B0%A8%B0%C2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%B2%E7%FC%F3%B2%E2%F3%E0%F3%E7%FE%F3%B2%FD%B2%F4%E0%F3%E1%F7%B0%BE%B0%FF%E1%F5%DF%FD%E4%F7%DD%FC%F7%B0%A8%B0%C2%F3%E1%E1%F3%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%E2%E7%FC%E6%E1%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0R%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D1%FD%E0%E0%F7%F1%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F1%FD%E0%E0%F7%F1%E6%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%F7%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%B2%FB%FC%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%BC%B2%C1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%F3%E6%A8%B2%DC%FD%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3n%F7%E1%E6%FB%FD%FC%F3%E0%FB%B2%F6%F7%B2%E6%E0%FB%F3%B2%FFh%FE%E6%FB%E2%FE%F7%B0%EF%EF&lt;/div&gt;&lt;a href=&quot;resources/Ampla.png&quot; class=&quot;js-hidden selecciona-LinkImages&quot;&gt;0&lt;/a&gt;&lt;div class=&quot;selecciona-bns js-hidden&quot;&gt;Su navegador no es compatible con esta herramienta.&lt;/div&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2070,16 +1764,16 @@
                       <string role="key" value="_id"></string>
                       <unicode value="16_137_2.1"></unicode>
                       <string role="key" value="_imageResource"></string>
-                      <instance class="exe.engine.resource.Resource" reference="35">
+                      <instance class="exe.engine.resource.Resource" reference="29">
                        <dictionary>
                         <string role="key" value="_idevice"></string>
-                        <reference key="33"></reference>
+                        <reference key="27"></reference>
                         <string role="key" value="_package"></string>
                         <reference key="2"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="Ampla.png"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpuvu5i7\\Ampla.png"></string>
+                        <string value="c:\\users\\jvila47\\appdata\\local\\temp\\tmpr27mjc\\Ampla.png"></string>
                         <string role="key" value="checksum"></string>
                         <string value="40cace1d74c429e8aaeb8f9cbfb7f604"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2091,7 +1785,7 @@
                        </dictionary>
                       </instance>
                       <string role="key" value="_parent"></string>
-                      <reference key="34"></reference>
+                      <reference key="28"></reference>
                       <string role="key" value="_thumbnailResource"></string>
                       <none></none>
                       <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -2102,7 +1796,7 @@
                     </instance>
                    </list>
                    <string role="key" value="idevice"></string>
-                   <reference key="34"></reference>
+                   <reference key="28"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -2110,7 +1804,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="2"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="24"></reference>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2127,14 +1821,14 @@
               <string role="key" value="originalicon"></string>
               <string value=""></string>
               <string role="key" value="parentNode"></string>
-              <reference key="24"></reference>
+              <reference key="18"></reference>
               <string role="key" value="systemResources"></string>
               <list></list>
               <string role="key" value="undo"></string>
               <bool value="1"></bool>
               <string role="key" value="userResources"></string>
               <list>
-               <reference key="35"></reference>
+               <reference key="29"></reference>
               </list>
               <string role="key" value="version"></string>
               <int value="0"></int>
@@ -2152,9 +1846,9 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:1.%20Figures%20Semblants:Treballant%20amb%20Pol%C3%ADgons"></string>
+           <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:1.%20Figures%20Semblants:Treballant%20amb%20Pol%C3%ADgons"></string>
            <string role="key" value="parent"></string>
-           <reference key="14"></reference>
+           <reference key="8"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -2164,13 +1858,13 @@
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="38">
+      <instance class="exe.engine.node.Node" reference="32">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="2. Triangles Semblants"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="36">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="30">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Introducció"></unicode>
@@ -2231,12 +1925,12 @@
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="37">
+            <instance class="exe.engine.field.TextAreaField" reference="31">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="138_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="36"></reference>
+              <reference key="30"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -2250,7 +1944,7 @@
 &lt;p&gt;Diré més, si sabem treballar amb triangles, podem convertir un quadrilàter qualsevol en 2 triangles fent una diagonal. Així que també sabem pensar en quadrilàters, i de manera semblant amb pentàgons o hexàgons. Per això tenim un apartat de triangles en aquest punt.&lt;/p&gt;
 &lt;p&gt;Abans de continuar, farem servir conceptes importants dels triangles. Hauries de recordar algunes propietats, o la seva classificació. Si no saps molt bé si te'n recordes, clica al següent botó!&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles#auto_top&quot; style=&quot;border-radius: 15px; padding: 10px; font-family: Arial; background-color: blue; color: white; text-decoration: none; box-shadow: 3px 3px 5px grey; font-weight: bold;&quot;&gt;Repàs Triangles&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles#auto_top&quot; style=&quot;border-radius: 15px; padding: 10px; font-family: Arial; background-color: blue; color: white; text-decoration: none; box-shadow: 3px 3px 5px grey; font-weight: bold;&quot;&gt;Repàs Triangles&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -2266,13 +1960,13 @@
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="37"></reference>
+                <reference key="31"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary>
-               <unicode role="key" value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles#auto_top"></unicode>
-               <instance class="exe.engine.node.Node" reference="39">
+               <unicode role="key" value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles#auto_top"></unicode>
+               <instance class="exe.engine.node.Node" reference="33">
                 <dictionary>
                  <string role="key" value="_title"></string>
                  <unicode value="Repàs Triangles"></unicode>
@@ -2289,12 +1983,12 @@
                  <string role="key" value="exportType"></string>
                  <string value="website"></string>
                  <string role="key" value="last_full_node_path"></string>
-                 <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles"></string>
+                 <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants:Rep%C3%A0s%20Triangles"></string>
                  <string role="key" value="parent"></string>
-                 <reference key="38"></reference>
+                 <reference key="32"></reference>
                  <string role="key" value="top_anchors_linked_from_fields"></string>
                  <list>
-                  <reference key="37"></reference>
+                  <reference key="31"></reference>
                  </list>
                  <string role="key" value="children"></string>
                  <list></list>
@@ -2304,7 +1998,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="38"></reference>
+              <reference key="32"></reference>
              </dictionary>
             </instance>
            </list>
@@ -2321,7 +2015,7 @@
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="38"></reference>
+           <reference key="32"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -2344,18 +2038,18 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants"></string>
+        <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:2.%20Triangles%20Semblants"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <reference key="39"></reference>
+         <reference key="33"></reference>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="40">
+      <instance class="exe.engine.node.Node" reference="34">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="3. Semblança en 1, 2 i 3 Dimensions"></unicode>
@@ -2372,7 +2066,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:3.%20Semblan%C3%A7a%20en%201%2C%202%20i%203%20Dimensions"></string>
+        <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:3.%20Semblan%C3%A7a%20en%201%2C%202%20i%203%20Dimensions"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2381,7 +2075,7 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="41">
+      <instance class="exe.engine.node.Node" reference="35">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="4. Escales: Plànols i Mapes"></unicode>
@@ -2398,7 +2092,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:4.%20Escales%3A%20Pl%C3%A0nols%20i%20Mapes"></string>
+        <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:4.%20Escales%3A%20Pl%C3%A0nols%20i%20Mapes"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2407,7 +2101,7 @@
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="42">
+      <instance class="exe.engine.node.Node" reference="36">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="5. Teorema de Pitàgores"></unicode>
@@ -2424,7 +2118,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:T6.%20Proporcionalitat%20Geom%C3%A8trica:5.%20Teorema%20de%20Pit%C3%A0gores"></string>
+        <string value="exe-node:Tema%205.%20Proporcionalitat%20Geom%C3%A8trica:5.%20Teorema%20de%20Pit%C3%A0gores"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2437,19 +2131,19 @@
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="14"></reference>
+   <reference key="8"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="38"></reference>
+   <reference key="32"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="40"></reference>
+   <reference key="34"></reference>
    <unicode role="key" value="4"></unicode>
-   <reference key="41"></reference>
+   <reference key="35"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="42"></reference>
+   <reference key="36"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="24"></reference>
+   <reference key="18"></reference>
    <unicode role="key" value="8"></unicode>
-   <reference key="39"></reference>
+   <reference key="33"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -2459,12 +2153,12 @@
   <string value="Base"></string>
   <string role="key" value="anchor_nodes"></string>
   <list>
-   <reference key="39"></reference>
+   <reference key="33"></reference>
   </list>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="24"></reference>
+  <reference key="18"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3224,11 +2918,7 @@
   <dictionary>
    <string role="key" value="40cace1d74c429e8aaeb8f9cbfb7f604"></string>
    <list>
-    <reference key="35"></reference>
-   </list>
-   <string role="key" value="443da2b0548c0853bbf2cfd7b688ef68"></string>
-   <list>
-    <reference key="9"></reference>
+    <reference key="29"></reference>
    </list>
    <string role="key" value="63c3e8ed6e010917f166d2015adf9de9"></string>
    <list>
@@ -3236,15 +2926,15 @@
    </list>
    <string role="key" value="e37d9589078b6f28544e6a38cf41578c"></string>
    <list>
-    <reference key="30"></reference>
+    <reference key="24"></reference>
    </list>
    <string role="key" value="ed88cd976bcbead7c8be0bf168d8870e"></string>
    <list>
-    <reference key="15"></reference>
+    <reference key="9"></reference>
    </list>
    <string role="key" value="fc9525ec3b812e270528227870c1df6d"></string>
    <list>
-    <reference key="27"></reference>
+    <reference key="21"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
